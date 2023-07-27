@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Blog_Home</title>
+
+    <!-- 基底URLの設定 -->
+    <!-- <base href="https://matumoto1234.github.io/practical-programming-sample/blog/"> -->
+
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="spacer.css" />
+    <link rel="stylesheet" href="remove-default.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- ナビゲーションリンク -->
+      <div class="NavLinks">
+        <a href=".">
+          <button class="NavLinks__homeButton">Home</button>
+        </a>
+        <a href="about">
+          <button class="NavLinks__aboutButton">About</button>
+        </a>
+      </div>
+
+      <select>
+        <option value>日本語</option>
+        <option value>Japanese</option>
+        <option value>日语</option>
+        <option value>Ιαπωνική γλώσσα</option>
+        <option value>japanische Sprache</option>
+        <option value>японский язык</option>
+        <option value>اللغة اليابانية</option>
+        <option value>idioma japonés</option>
+        <option value>일본어</option>
+        <option vslue>lingua Iaponica</option>
+      </select>
+
+    </header>
+
+    <!-- スペーサー(間隔を開けるためだけのもの) -->
+    <div class="Spacer--80px" />
+
+    <main>
+
+      <h1>ブログ</h1>
+      <h2>ブログ</h2>
+      <h3>ブログ</h3>
+      <h4>ブログ</h4>
+      <h5>ブログ</h5>
+      <h6>ブログ</h6>
+      <p><label>テキストを入力<input type="search" name="search" size="30" maxlength="255">
+      </label>
+      <button type="button" class="Button" onclick="alert(
+        '検索できん')">
+        検索
+      </button> 
+      </p>
+      <!-- 記事カード1 -->
+      <a href="shimekiri.html">
+        <div class="ArticleCard">
+          <div class="ArticleCard__titleAndDate">
+            <div class="ArticleCard__titleAndDate__title">締切間近</div>
+            <div class="ArticleCard__titleAndDate__date">2023-08-07 23:58</div>
+          </div>
+          <div class="ArticleCard__articleText">
+            まずい
+          </div>
+        </div>
+      </a>
+
+      <a href="kansei.html">
+        <div class="ArticleCard">
+          <div class="ArticleCard__titleAndDate">
+            <div class="ArticleCard__titleAndDate__title">ブログ完成！</div>
+            <div class="ArticleCard__titleAndDate__date">2023-07-27 18:40</div>
+          </div>
+          <div class="ArticleCard__articleText">
+            提出方法がわからない。
+          </div>
+        </div>
+      </a>
+
+      <!-- 記事カード2 -->
+      <a href="hazimari.html">
+        <div class="ArticleCard">
+          <div class="ArticleCard__titleAndDate">
+            <div class="ArticleCard__titleAndDate__title">ブログ作成</div>
+            <div class="ArticleCard__titleAndDate__date">2023-07-20 17:00</div>
+          </div>
+          <div class="ArticleCard__articleText">
+            やる気はある
+          </div>
+        </div>
+      </a><br>
+
+      <p>このブログに評価する。
+        <input type="checkbox" name="hyouka" value="1">不可
+        <input type="checkbox" name="hyouka" value="2">可
+        <input type="checkbox" name="hyouka" value="3">良
+        <input type="checkbox" name="hyouka" value="4">フルコンボだドン
+
+        <button type="button" class="Button" onclick="alert(
+        '評価が非送信されました。')">
+        送信
+      </button>
+      </p>
+
+      <button type="button" class="Button" onclick="alert(
+        '押されたボタン')">
+        ボタン
+      </button> 
+
+      <h1>広告</h1>
+      <a href="https://u-aizu.ac.jp/">
+        <div class="Koukoku">
+          ここをクリック
+        </div>
+      </a><br>
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <!-- スペーサー(間隔を開けるためだけのもの) -->
+    <div class="spacer-120px" />
+
+    <footer>
+      <div class="CopyRight">
+        © 2023 shiga
+      </div>
+    </footer>
+  </body>
+</html>

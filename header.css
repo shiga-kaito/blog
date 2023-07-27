@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    height: 64px;
+    padding: 0px 64px;
+    align-items: center;
+    gap: 16px;
+  
+    border-bottom: 2px solid #ef2525;
+  }
+  
+  .NavLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+  }
+  
+  .NavLinks__homeButton {
+    color: #27a700;
+  
+    /* large */
+    font-family: Noto Sans JP;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+  }
+  
+  .NavLinks__aboutButton {
+    color: #1ca800;
+  
+    /* large */
+    font-family: Noto Sans JP;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+  }
